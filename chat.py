@@ -7,7 +7,7 @@ def read_file(filename):   #讀取檔案
 
 def convert(lines):
     new = []
-    person = None
+    person = None  #none適合用來當作預設值
     for line in lines:
         if line == 'Allen':
             person = 'Allen'
